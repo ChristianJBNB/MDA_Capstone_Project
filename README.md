@@ -24,4 +24,47 @@ This project focuses on using different machine-learning models to find the most
 - [Car Price Prediction Overleaf File](https://www.overleaf.com/read/ppjrmjkgwgcs#ce2a20)
 - [Used Car Sales Dataset](https://www.kaggle.com/datasets/satvshr/top-4-used-car-sales-datasets-combined)
 
-##
+## Dataset 
+The dataset used in this project will be the Car Prices Dataset. This dataset was obtained from Kaggle and it contains information about used car prices along with other attributes such as the make, model, and mileage of the cars. This dataset was last updated in 2021 and contains 19237 rows and 18 columns.
+
+## Data Collection and Use
+The data was collected from Kaggle. The data was contained in a CSV file which made it easy to implement into the project repository. Once the file was added to the repository, the CSV file was read into the main Python file using the Pandas extension. Pandas is a fast, powerful, flexible, and easy-to-use open-source data analysis and manipulation tool, built on top of the Python programming language. Putting the data into a data frame allowed for easy data analysis and cleaning. 
+
+## Data Attributes
+|Column Name|Description|Data Type|
+|---|---|---|
+|ID|Unique number to identify each data entry|Integer|
+|Price|The amount of money in USD that was paid for the particular car|Integer|
+|Levy|The tax cost that was associated with the sale|Object|
+|Manufacturer|The company that made the car|Object|
+|Model|The specific design of the car|Object|
+|Prod. Year|The year that the car was made|Integer|
+|Category|The style of car|Object|
+|Leather Interior|Whether the car has a leather interior or not|Object|
+|Fuel Type|What kind of fuel the car takes|Object|
+|Engine Volume|The total volume of all the cylinders in a car's engine|Object|
+|Mileage|The number of miles that were on the car at the time of sale|Object|
+|Cylinders|The number of cylinders that are in the car|Float|
+|Gear Box Type|The type of gearbox that is in the car|Object|
+|Drive Wheels|What wheels are the drive wheels on the car|Object|
+|Doors|The number of doors on the car|Object|
+|Wheel|What side of the car the wheel is on|Object|
+|Color|The color of the car|Object|
+|Airbags|The number of airbags in the car|Integer|
+
+## Main Attributes
+While the dataset has a lot of attributes to choose from, not every aspect is that important when it comes to the price of the car. The main attributes that were used in the project were price, model, prod. year, fuel type, mileage, cylinders, and gearbox type. These are the most important attributes that determine the price of a car and lead to an accurate prediction of the price for other cars.
+
+## Data Limitations
+While the dataset has a lot of useful information, it is also missing information that would lead to more in-depth. The dataset only includes data from 2021 and no other historical data that could help with predicting price changes over time. It also doesn't have location data of where the cars were sold, which could help explain why certain cars may be more expensive than one another if they are the same make and model. These limitations could lead to less accurate predictions of the prices of used cars.
+
+
+
+
+
+
+
+
+
+
+
