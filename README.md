@@ -4,6 +4,22 @@
 Northwest Missouri State University, Maryville MO 64468, USA  
 Email: [cjackson430@yahoo.com](mailto:cjackson430@yahoo.com)
 
+## Description
+This project aims to create a model that can accurately predict used car prices. It uses a [Used Car Sales Dataset](https://www.kaggle.com/datasets/satvshr/top-4-used-car-sales-datasets-combined) obtained from Kaggle, which contains many different attributes that can be used in machine learning algorithms to predict car prices. Finding an algorithm that can accurately predict used car prices would be helpful with potentially helping value cars in order to find if a car is overpriced or underpriced.
+
+## Project Start
+1. Start a new Repository and select a default README.md
+2. Clone the Repository to your local environment.
+3. Open the project, and create\activate the virtual environment.
+```bash
+python -m venv .venv
+source .venv\Scripts\Activate
+```
+4. Install required libraries/dependencies into the virtual environment.
+```bash
+pip install -r requirements.txt
+```
+
 ## Abstract
 Last
 
